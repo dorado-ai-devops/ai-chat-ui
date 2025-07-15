@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Backend Agente
-AI_AGENT_API_URL = "http://localhost:6001/ask"
+AI_AGENT_API_URL = "http://ai-agent-service.devops-ai.svc.cluster.local:6001/ask"
 
 st.set_page_config(page_title="AI Chat UI", layout="wide")
 st.title("Chat DevOps")
