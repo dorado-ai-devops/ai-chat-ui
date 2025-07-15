@@ -5,7 +5,7 @@ import requests
 AI_AGENT_API_URL = "http://ai-agent-service.devops-ai.svc.cluster.local:6001/ask"
 
 st.set_page_config(page_title="AI Chat UI", layout="wide")
-st.title("Chat DevOps")
+st.title("Chat AI-DevOps-Lab")
 
 if "history" not in st.session_state:
     st.session_state["history"] = []
