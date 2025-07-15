@@ -2,7 +2,7 @@ IMAGE_NAME=ai-chat-ui
 VERSION=v0.1.1
 CLUSTER_NAME=devops-ai
 REGISTRY=localhost:5000
-HELM_VALUES=../devops-ai-lab/manifests/helm-chat-ui/values.yaml
+HELM_VALUES=../devops-ai-lab/manifests/helm-chat/values.yaml
 ARGO_APP_NAME=ai-chat-ui
 
 .PHONY: all build tag push load update-values sync release run
